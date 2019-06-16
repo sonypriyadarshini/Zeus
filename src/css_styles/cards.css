@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+}
+/* .merch{
+    text-align: center;
+    overflow: auto;
+
+} */
+.merchTitle{
+  text-align: center;
+}
+.cardButtons{
+    display: inline-block;
+
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:rgba(43, 138, 226, 0.87);
+    transition: color 0.2s;
+    text-align: left;
+}
+
+.buttonClass{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.buttonClass{
+
+}
+
+a{
+    color:black;
+}
+.random{
+  margin-bottom:200px;
+  margin-left: 50px;
+  align-content: center;
+}
+.ui.card:last-child{
+  margin-bottom:2px;
+}

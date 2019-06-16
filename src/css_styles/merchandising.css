@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+}
+
+h3:first-child.merchTitle  {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cardLayout{
+  margin-bottom: 30px;
+  display:flex; flex-direction:row;
+  align-items: center;
+align-content: center;
+margin-left: 120px;
+}
