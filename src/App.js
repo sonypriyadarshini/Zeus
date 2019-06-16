@@ -20,24 +20,24 @@ class App extends Component {
   render() {
     const { isOpen } = this.state;
     return (
-      <Router> 
-      <div className="App">
-        <div id="App">
-          <SideBar />
-          <div className="topnav">
-            <h3>QA Dashboard</h3>
-          </div>
-          <div id="page-wrap">
-            {/* <h2>QA dashboard</h2> */}
-            {/* <h5>Click on the nav menu to view details of each project</h5> */}
-            <Route path='/home' component={Home}></Route>
-            <Route path='/merchandising' component={Merchandising}></Route>
-            <Route path='/experience' component={Experience}></Route>
+      <Router>
+        <div className="App">
+          <div id="App">
+            <SideBar />
+            <div className="topnav">
+              <h3>QA Dashboard</h3>
+            </div>
+            <div id="page-wrap">
+              {/* <h2>QA dashboard</h2> */}
+              {/* <h5>Click on the nav menu to view details of each project</h5> */}
+              <Route path='/home' component={Home}></Route>
+              <Route path='/merchandising' component={Merchandising}></Route>
+              <Route path='/experience' component={Experience}></Route>
+            </div>
           </div>
         </div>
-      </div>
-</Router>
+      </Router>
     );
-  }   
+  }
 }
 export default App;

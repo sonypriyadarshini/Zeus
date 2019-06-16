@@ -44,3 +44,7 @@ a{
 .ui.card:last-child{
   margin-bottom:2px;
 }
+.imagelogo{
+  width:15em;
+  height: 15em;
+}
