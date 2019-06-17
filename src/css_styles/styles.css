@@ -5,8 +5,6 @@ body {
 
 #App {
   font-family: sans-serif;
-
-  /* Give app full page to work with */
   height: 100vh;
 }
 
@@ -35,12 +33,14 @@ body {
 }
 .topnav{
   text-align: center;
-  background-color:rgba(21, 107, 219, 0.87);
+  background-color:rgba(21, 107, 219, 1);
   overflow: hidden;
   padding: 15px 15px;
+  position: fixed;
+  width:1700px;
+  z-index:1; 
+  opacity: 1;
 }
-
-/* The rest copied directly from react-burger-menu docs */
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -49,9 +49,7 @@ body {
   height: 30px;
   left: 36px;
   top: 15px;
-  
   /* background-color:rgba(43, 138, 226, 0.87); */
-  
 }
 
 /* Color/shape of burger icon bars */
